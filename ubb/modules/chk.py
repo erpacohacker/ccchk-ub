@@ -96,7 +96,7 @@ async def st_charge(event):
                              f'**Country**==> {Country}\n'+
                              f'**Time-Stamp** ==> {datetime.now()}\n'+
                              f'**Time-Took** ==> {end-start}\n'+
-                             f'**Userbot-By** ~ @Xbinner')
+                             f'**Bot-by** ~ @tomboyzx')
 
         elif "true" in req.text:
             await event.edit(f'✅>**STRIPE 1$**\n'+
@@ -106,7 +106,7 @@ async def st_charge(event):
                              f'**Country**==> {Country}\n'+
                              f'**Time-Stamp** ==> {datetime.now()}\n'+
                              f'**Time-Took** ==> {end-start}\n'+
-                             f'**Userbot-By** ~ @Xbinner')
+                             f'**Bot-By** ~ @tomboyzx')
         else:
             await event.edit(f'❌>**STRIPE 1$**\n'+
                              f'**CC** `{ccn}|{mm}|{yy}|{cvv}`\n'+
@@ -115,4 +115,4 @@ async def st_charge(event):
                              f'**Country**==> {Country}\n'+
                              f'**Time-Stamp** ==> {datetime.now()}\n'+
                              f'**Time-Took** ==> {end-start}\n'+
-                             f'**Userbot-By** ~ @Xbinner')
+                             f'**Bot-By** ~ @tomboyzx')
